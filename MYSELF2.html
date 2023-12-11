@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Myself</title>
+    <style>
+         body{
+            margin: 0px;
+
+            height: 731px;
+        }
+        body:hover{
+            .content-container{
+                height: 280px;
+            }
+        }
+
+        
+
+        h1{
+            color: #8F5D2C;
+            margin: 0px;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 100;
+        }
+
+       
+
+        .top-menu{
+            box-shadow: 0px 1px 20px  #2B1400;
+
+            background-color: #2B1400;
+
+            display: flex;
+            flex-direction: row;
+
+            justify-content: space-between;
+
+            height: 65px;
+
+            align-items: center;
+
+            
+
+            
+
+        }
+
+        #top-name{
+
+            color: white ;
+            font-size: 30px;
+
+            margin-left: 15px;
+
+            flex: ;
+
+            transition: .5s;
+        }
+        #top-name:hover{
+            font-size: 20px;
+        }
+
+        .navigate{
+            
+
+            display: flex;
+            flex-direction: row;
+
+           
+        }
+        #navigate{
+            font-size: 20px;
+
+            
+            margin-top: 0px;
+
+            padding: 10px;
+
+            
+           border: solid transparent 3px;
+
+            margin-right: 20px;
+
+            transition: .15s;
+        }
+        #navigate:hover{
+            color: white ;
+            
+
+            cursor: pointer;
+        }
+        #navigate:active{
+            box-shadow: 0px 2px 0px #2B1400 ;
+            background-color: #8f5e2c7e;
+        }
+
+        button{
+            background-color: transparent;
+            outline: none;
+            border: none;
+        }
+
+
+        .myself{
+            color: white ;
+        }
+
+        .main-container2{
+            margin-left: 30px;
+            margin-top: 40px;
+
+            display: flex;
+            flex-direction: row-reverse;
+
+            height: fit-content;
+            
+
+            
+           
+
+            align-items: end;
+            
+        }
+
+        .awards-container{
+            display: flex;
+            flex-direction: column;
+
+            
+            border-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+
+
+            text-align: center;
+
+            height: 500px;
+            width: 400px;
+
+            overflow: scroll;
+
+            background-color: #2B1400;
+
+           
+        }
+        .awards-content{
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+        }
+
+        img{
+            width: 300px;
+        }
+
+        #awards{
+            padding: 15px;
+        }
+
+        
+        ::-webkit-scrollbar {
+            width: 10px;
+  
+        }
+
+
+        ::-webkit-scrollbar-track {
+            background:#2B1400; 
+        }
+ 
+
+        ::-webkit-scrollbar-thumb {
+            background:white; 
+             border-radius: 25px;
+        }
+
+
+        ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+        }
+
+        .for-scroll{
+            display: flex;
+            flex-direction: column;
+            
+            text-align: center;
+
+            background-color: #2B1400;
+
+            border-top-left-radius: 5px;
+        }
+
+
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+<body background="IMAGES2/canva.png"">
+    
+<div class="main-container1">
+    <div class="top-menu"> 
+        <div class="top-name">
+            <h1 id="top-name"> Vash </h1>
+        </div>
+
+        <div class="navigate">
+            <a href="home2.html"><button> <h1 id="navigate"> Home</h1> </button></a>
+            <a href="BIODATA2.html"><button> <h1 id="navigate"> Biodata</h1> </button></a>
+            
+            <a href="HOBBIES2.html"><button> <h1 id="navigate"> Hobbies and Family</h1> </button></a>
+            <a href="MYSELF2.html"><button> <h1 id="navigate" class="myself"> Myself</h1> </button></a>
+           
+        </div>
+    </div>
+</div>
+
+<div class="main-container2">
+    <div class="for-scroll">
+        <div>
+            <h1 id="awards">Awards</h1>
+        </div>
+        <div class="awards-container">
+            
+            <div class="awards-content">
+                <img src="IMAGES2/award1.png" alt="">
+                <img src="IMAGES2/award2.png" alt="">
+                <img src="IMAGES2/award3.png" alt="">
+            </div>
+    
+        </div>
+    </div>
+    
+
+</div>

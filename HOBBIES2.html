@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Hobbies</title>
+    <style>
+         body{
+            margin: 0px;
+
+            height: 731px;
+
+            back
+        }
+        body:hover{
+            .hobbies-content{
+                height: 529px;
+                width: 50px;
+            }
+
+            .family-container{
+                 height: 550px;
+            }
+
+        }
+       
+
+        
+
+        
+
+        h1{
+            color: #8F5D2C;
+            margin: 0px;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 100;
+        }
+
+       
+
+        .top-menu{
+            box-shadow: 0px 1px 20px  #2B1400;
+
+            background-color: #2B1400;
+
+            display: flex;
+            flex-direction: row;
+
+            justify-content: space-between;
+
+            height: 65px;
+
+            align-items: center;
+
+            
+
+            
+
+        }
+
+        #top-name{
+
+            color: white ;
+            font-size: 30px;
+
+            margin-left: 15px;
+
+            flex: ;
+
+            transition: .5s;
+        }
+        #top-name:hover{
+            font-size: 20px;
+        }
+        .navigate{
+            
+
+            display: flex;
+            flex-direction: row;
+
+           
+        }
+        #navigate{
+            font-size: 20px;
+
+            
+            margin-top: 0px;
+
+            padding: 10px;
+
+            
+           border: solid transparent 3px;
+
+            margin-right: 20px;
+
+            transition: .15s;
+
+            
+        }
+        #navigate:hover{
+            
+
+            color: white;
+            
+
+            cursor: pointer;
+        }
+        #navigate:active{
+            box-shadow: 0px 2px 0px #2B1400 ;
+            background-color: #8f5e2c7e;
+        }
+
+        button{
+            background-color: transparent;
+            outline: none;
+            border: none;
+        }
+
+
+        .hobbies{
+            color: white;
+        }
+
+
+        .main-content-div{
+
+            
+            display: flex;
+            flex-direction: row;
+
+            align-items: start;
+
+            margin-top: 50px;
+            margin-left: 40px;
+            
+
+            justify-content: space-between;
+
+            width: 1550px;
+        }
+
+        .hobbies-content{
+            display: flex;
+            flex-direction: column;
+
+            text-align: left;
+
+            width: 0px;
+            height:0px;
+
+            transition: 1s;
+
+
+
+
+        }
+        
+           
+
+        .content-div{
+            width:  540px;
+            
+
+            margin-top: 20px;
+            
+            display: flex;
+            flex-direction: row;
+
+            border: soid ;
+
+            justify-content: space-between;
+
+            background-color: #2B1400;
+
+            height: 455px;
+
+            border-radius: 5px;
+
+            box-shadow:  7px 7px 15px #2B1400;
+
+            transition: .5s;
+
+            overflow: hidden;
+        }
+        .content-div:hover{
+            box-shadow:  0px 0px 0px #2B1400;
+        }
+
+        .content-div1{
+            display: flex;
+            flex-direction: column;
+
+            text-align: center;
+
+            width: fit-content;
+            
+
+          
+            
+            
+            
+        }
+        #content-div1-hobbies{
+            
+            font-size: 20px;
+            color: #8F5D2C;
+
+            flex: 1;
+
+            margin-top: 65px;
+            margin-left: 5px;
+
+            
+
+            
+
+
+        }
+        .content-div2{
+            height: fit-content;
+
+            
+            
+            
+        }
+
+        
+
+        .hobby-img{
+            border-radius: 8px;
+
+            margin: 10px;
+
+            height: 436px;
+        }
+
+        .main-family-content{
+           
+
+
+            display: flex;
+            flex-direction: column;
+
+            margin-top: 25px;
+
+            
+            border-radius: 5px;
+
+            
+
+            width: 800px;
+            height: 430px;
+
+            
+
+
+
+            
+        }
+        .main-family-content:hover{
+           
+            
+        }
+
+        .family-content1{    
+            display: flex;
+            flex-direction: row;
+
+            text-align: center;
+
+           
+
+            width: fit-content;
+            height: 400px;
+
+            overflow: visible;
+
+            transition: .5s;
+
+            margin-top: px;
+            
+
+            background-color: #2B1400;
+
+            border-radius: 5px;
+           
+
+            padding: 8px;
+
+            box-shadow:  7px 7px 15px #2B1400;
+
+            transition: .5s;
+
+            
+
+           
+
+
+
+            
+
+            
+           
+
+            
+
+        }
+        .family-content1:hover{
+            box-shadow:  0px 0px 0px #2B1400;
+        }
+
+        #family-content1{
+            width: 0px;
+            transition: 1s;
+
+            
+        }
+        #family-content1:hover{
+            width: fit-content;
+        }
+
+
+        .mama, .us, .mimay{
+            margin: 0px;
+
+        }
+
+        
+
+        .fam-img2{
+            height: 350px;
+            margin: px;
+
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+
+            
+        }
+        .fam-img1{
+            height: 350px;
+            margin: px;
+
+        }
+        .fam-img3{
+            height: 350px;
+            margin: px;
+
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        img{
+            margin-right: 5px;
+        }
+
+        .hobbies-title{
+            border: solid #2B1400;
+            border-radius: 5px;
+
+            width: fit-content;
+
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            background-color: #2B1400;
+        }
+
+        .family-container{
+            display: flex;
+            flex-direction: column;
+
+            overflow: hidden;
+
+            width: fit-content;
+            height: 60px;
+
+            transition: 1s;
+
+            margin-right: 50px;
+           
+            height: 550px;
+        }
+       
+        
+
+
+            
+            
+        
+
+
+        .family-title{
+            text-align: start;
+
+        }
+        #family-title{
+           border: solid #2B1400;
+
+            background-color: #2B1400;
+
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            width: fit-content;
+
+            border-radius: 5px;
+
+            text-align: start;
+
+            color: white;
+        }
+        #hobby-title{
+            color: white;
+        }
+
+        .pos{
+            display: flex;
+            flex-direction: row;
+
+            justify-content: space-around;
+
+            text-align: center;
+
+            background-color:#2B1400;
+
+            padding: 8px;
+            padding-top: 12px;
+
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+            
+        }
+
+        #pos{
+            font-size: 20px;
+        }
+
+       
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+</head #8F5D2C>
+<body background="IMAGES2/canva.png">
+    
+<div class="main-top-menu">
+    <div class="top-menu"> 
+        <div class="top-name">
+            <h1 id="top-name"> Vash </h1>
+        </div>
+
+        <div class="navigate">
+            <a href="home2.html"><button> <h1 id="navigate"> Home</h1> </button></a>
+            <a href="BIODATA2.html"><button> <h1 id="navigate"> Biodata</h1> </button></a>
+            
+            <a href="HOBBIES2.html"><button> <h1 id="navigate" class="hobbies"> Hobbies and Family</h1> </button></a>
+            <a href="MYSELF2.html"><button> <h1 id="navigate"> Myself</h1> </button></a>
+           
+        </div>
+    </div>
+</div> 
+
+<div class="main-content-div">
+    
+    <div class="hobbies-content">
+        <div class="hobbies-title">
+            <div>
+                <h1 id="hobby-title">Hobbies</h1>
+            </div>
+        </div>
+        
+        <div class="content-div">
+           
+            <div class="content-div1">
+                
+                <h1 id="content-div1-hobbies"> Basketball</h1>
+                <h1 id="content-div1-hobbies"> Cooking</h1>
+                <h1 id="content-div1-hobbies"> Learning New Things</h1>
+            </div>
+        
+            <div class="content-div2">
+                <img class="hobby-img" src="IMAGES2/hobbies.png" alt="">
+            </div>
+    
+        </div>
+    </div>  
+    
+    <div class="family-container">
+        <div class="family-title">
+            <h1 id="family-title">Family</h1>
+        </div>
+        <div class="main-family-content">
+            <div class="family-content1">
+                <div class="mama">
+                    
+                    <img class="fam-img2" src="IMAGES2/mama.jpg" alt="">
+                    <div class="pos">
+                        <h1 id="pos">Lady Pamela R. Salonga</h1>
+                        
+        
+                    </div>
+                </div>
+
+                <div class="us">
+                    
+                    <img class="fam-img1" src="IMAGES2/fam.jpg" alt="">
+                    <div class="pos">
+                       
+                        <h1 id="pos">Fam</h1>
+                       
+        
+                    </div>
+                </div>
+
+                <div class="mimay">
+                    
+                    <img class="fam-img3" src="IMAGES2/mimayy.jpg" alt="">
+                    <div class="pos">
+                        
+                        
+                        <h1 id="pos">Hermoine S. Areja</h1>
+        
+                    </div>
+                </div>
+
+
+            </div>
+
+           
+        
+            
+        </div>
+    </div>
+   
+
+    
+    
+</div>
+
+    
+    
+     
